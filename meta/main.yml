@@ -1,0 +1,28 @@
+galaxy_info:
+  author: jack
+  role_name: test
+  description: Test
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - xenial
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Fedora
+      versions:
+        - 30
+        - 31
+
+  galaxy_tags:
+    - molecule
+
+dependencies: []
