@@ -2,4 +2,4 @@
 - name: Prints ANSIBLE_ROLES_PATH
   debug:
     msg:
-      - "ANSIBLE_ROLES_PATH: {{ lookup('.env', 'ANSIBLE_ROLES_PATH') }}"
+      - "ANSIBLE_ROLES_PATH for test"
